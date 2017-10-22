@@ -1,0 +1,38 @@
+/* General setup */
+@font-face {
+  font-family: font1;
+  src: url(font1.otf);
+}
+@font-face {
+  font-family: font2;
+  src: url(font2.ttf);
+}
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+  font-family: font2;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+  font-family: font1;
+}
